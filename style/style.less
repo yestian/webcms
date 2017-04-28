@@ -1,1 +1,57 @@
-body{font-size: 12px;}
+@acolor:#333;
+@danger:#d9534f;
+@primary:#337ab7;
+@info:#5bc0de;
+@warning:#f0ad4e;
+@success:#5cb85c;
+@muted:#777;
+@light:#f8f8f8;
+/***define css end**/
+body{font-family: 'microsoft yahei';}
+.agency-body{
+	background: url(../images/bg.jpg) no-repeat;background-size: cover;
+}
+input{max-width: 200px;}
+a{color:@acolor;}
+a:hover{text-decoration: none;color:@info;}
+li{list-style:none;}
+i{padding-right: 10px;color:@muted;}
+header{
+	padding-top: 15px;
+	position: relative;
+	background: #fff;
+	nav{padding-top: 15px;}
+	li{font-size: 16px;}
+	-webkit-box-shadow: 0 1px 10px #ccc;
+	-moz-box-shadow: 0 1px 10px #ccc;
+	box-shadow: 0 1px 10px #ccc;
+
+}
+.leftmenu{
+	h2{
+		font-size: 16px;border-bottom: solid 2px #ccc;padding-bottom: 10px;
+		font-weight: bold;
+	}
+}
+#rightframe{padding-top: 20px;}
+.wrapper{
+	h2{font-size: 16px;font-weight: bold;padding-bottom: 15px;color:@primary;}
+}
+#rightframe{overflow-y: scroll;}
+.url-bind span{padding: 0 5px;}
+
+.table{
+	margin-top: 15px;
+	th{background: @light;vertical-align: middle!important;}
+	a{color:@success;padding:0 5px;}
+	
+}
+.th-vertical{
+	th{width: 170px;}
+}
+.table-download{
+	tr{
+		td:last-child{width: 100px;text-align: center;}
+	}
+}
+.agency{background:#fff;}
